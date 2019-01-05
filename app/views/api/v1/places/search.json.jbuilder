@@ -1,12 +1,10 @@
-#GET results from Google Places API
+#GET request: results from Google Places API and database at /places/search?q=?...
 
 json.google do
   json.array! @google_places do |place|
     json.extract! place, :name, :address, :coordinates, :opening_hours, :type, :rating
   end
 end
-
-#GET results from database, if any
 
 json.database do
   json.array! @places do |place|
