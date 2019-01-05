@@ -22,3 +22,7 @@
 
 .byebug_history
 .env*
+
+# Ignore JSON file for privacy purposes
+db/extract.json
+

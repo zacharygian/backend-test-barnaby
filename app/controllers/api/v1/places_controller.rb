@@ -109,7 +109,7 @@ class Api::V1::PlacesController < Api::V1::BaseController
     elsif type == "missing_params"
       render json: { error: "Query missing. Please try again with a query string." }
     else
-      render json: { error: "Access denied: your API key is invalid. Please enter a valid API key to continue." }
+      render json: { error: "Access denied: your API key is invalid. Please enter a valid API key to continue." }, status: 401
     end
   end
 end
