@@ -59,7 +59,6 @@ class Api::V1::PlacesController < Api::V1::BaseController
       "Le Bistrot des Dames",
       "Aux Folies",
       "UDO Bar",
-      "Le Motel"
     ]
     params_hash = {
       q: discover_places.sample
