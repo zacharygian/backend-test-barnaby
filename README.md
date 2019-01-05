@@ -1,6 +1,6 @@
 <h1>Bienvenue sur Awesome Barnaby App API!</h1>
 
-Cette API permet de chercher des bars, ou autres établissements, avec de simples queries texte. Elle nous renvoie au plus 15 bars de l'API Google Places et retourne les bars de la base de données qui correspondent à la recherche par nom ou bien les plus proches des résultats donnés par Google. Une recherche sur notre API nous renvoie une liste des bars/établissements avec des informations sur chaque endroit comme addresse, coordonnées géographiques, type, note sur cinq et plus. Le résultat de la requête HTTP sur notre API est sous forme de JSON.
+Cette API permet de chercher des bars, ou autres établissements, avec de simples queries texte. Elle nous renvoie au plus 15 bars de l'API Google Places et retourne les bars de la base de données qui correspondent à la recherche par nom ou bien les plus proches des résultats donnés par Google. Une recherche sur notre API nous renvoie une liste des bars/établissements avec des informations sur chaque endroit comme adresse, coordonnées géographiques, type, note sur cinq et plus. Le résultat de la requête HTTP sur notre API est sous forme de JSON.
 
 Notre API a plusieurs endpoints et plusieurs fonctionnalités qui permettent à l'utilisateur de chercher n'importe quel bar, restaurant, ou autre par nom, adresse, quartier, lieux-dits, arrondissements ou ville. Il y a des paramètres requis et des paramètres optionnels.
 
