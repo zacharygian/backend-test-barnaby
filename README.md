@@ -25,7 +25,7 @@ Cet endpoint est le plus important de l'API, il permet de rechercher dans l'API 
 <strong>Exemples de queries à essayer: "75015 Paris", "Orangerie", "Rue Chabanais", "Colorova", "kube bar"</strong>
 
 
-<h3>La fonctionnalité Bonus: DISCOVER ⭐</h3>
+<h3>La fonctionnalité bonus: DISCOVER ⭐</h3>
 
 L'API permet aussi de découvrir de nouveaux endroits où sortir, grace à la fonctionnalité discover. Tapez le keyword "discover" dans la query et un nouveau bar au hasard vous sera retourné. Comme auparavant, l'API vous renvoie également les bars les plus proches de ce nouveau bar qui sont dans la base de données existante, s'il y en a à proximité.
 
