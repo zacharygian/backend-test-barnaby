@@ -3,7 +3,7 @@ class Api::V1::PlacesController < Api::V1::BaseController
   require 'open-uri'
   require 'rest-client'
 
-  file = File.read "db/extract.json"
+  file = File.read("db/extract.json")
   data = JSON.parse(file)
 
   API_KEY = ENV['GOOGLE_API_KEY']
